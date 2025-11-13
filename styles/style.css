@@ -17,12 +17,13 @@ a {
 button {
     font-family: "Roboto", sans-serif;
     border: none;
-    background-color: #3882f6;
-    color: #e5e7eb;
     padding: 8px 16px;
     border-radius: 8px;
-
+    background-color: #3882f6;
+    color: #e5e7eb;
+    
 }
+
 /* Styles for the header section */
 .header {
     background-color: #1f2937;
@@ -44,7 +45,6 @@ h1 {
 .logo {
     font-size: 24px;
 }
-
 
     /* Styles for header alignment */
     .upper {
@@ -116,4 +116,23 @@ blockquote {
 .author {
     align-self: flex-end;
     margin-right: 32px;
+}
+
+/* Styles for the call to action section */
+.call-to-action{
+    background-color: #3882f6;
+    color: #f9faf8;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:32px 0;
+    font-size: 24px;
+}
+.call-to-action__main {
+    margin:0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.sign-up__footer {
+    border: 1px solid #f9faf8;;
 }
