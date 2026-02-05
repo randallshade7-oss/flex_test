@@ -5,9 +5,9 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   height: 100vh;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 ul {
   list-style: none;
@@ -78,6 +78,7 @@ h1 {
 /* Styles for the information section */
 
 .information {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,10 +100,10 @@ h1 {
 .info {
   flex-basis: 100%;
   text-align: center;
-  max-width: 200px;
+  max-width: 150px;
 }
 .img-box {
-  border: 5px solid #3882f6;
+  border: 3px solid #3882f6;
   height: 150px;
   border-radius: 16px;
 }
@@ -140,6 +141,7 @@ h1 {
 
 /* Styles for the call to action section */
 .call-to-action {
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
