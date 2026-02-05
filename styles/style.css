@@ -109,24 +109,34 @@ h1 {
 
 /* Styles for the quotation section */
 .quotation {
-  
   background-color: #e5e7eb;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  /*
   gap: 8px;
-  flex-direction: column;
+  flex-direction: column; */
   
 }
-blockquote {
-  margin: 0;
+.quote_container {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.quote {
   font-style: italic;
   font-size: 36px;
   color: #1f2937;
   font-weight: 300;
-}
+} 
 .author {
   align-self: flex-end;
-  margin-right: 32px;
-}
+  margin-left: auto;
+  margin-right: 30px;
+  font-size: 24px;
+  font-weight:500;
+} 
 
 /* Styles for the call to action section */
 .call-to-action {
