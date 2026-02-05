@@ -140,21 +140,39 @@ h1 {
 
 /* Styles for the call to action section */
 .call-to-action {
-  background-color: #3882f6;
-  color: #f9faf8;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  padding: 32px 0;
   font-size: 24px;
 }
-.call-to-action__main {
-  margin: 0;
+.cta_container {
+  width: 80%;
+  height: 150px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.cta {
+  width: 80%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cta_header {
+  font-size: 24px;
+  font-weight:500;
+}
+.cta_message {
   font-size: 18px;
   color: #e5e7eb;
+  margin:0;
 }
-.sign-up.border {
-  border: 1px solid #f9faf8;
+.sign-up_footer {
+  border: 2px solid #f9faf8;
 }
 
 .footer {
