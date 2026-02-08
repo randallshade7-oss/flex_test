@@ -69,10 +69,11 @@ h1 {
 }
 
 .hero_img {
-  background-color: #e5e7eb;
-}
-.hero_img {
   flex-basis: 100%;
+}
+.hero_img img{
+  max-width: 100%;
+  border-radius: 5px;
 } 
 
 /* Styles for the information section */
@@ -103,21 +104,24 @@ h1 {
   max-width: 150px;
 }
 .img-box {
-  border: 3px solid #3882f6;
   height: 150px;
   border-radius: 16px;
 }
-
+.img-box img { 
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+ 
 /* Styles for the quotation section */
 .quotation {
+  padding-top: 30px;
   background-color: #e5e7eb;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 400px;
-  /*
-  gap: 8px;
-  flex-direction: column; */
+  
   
 }
 .quote_container {
